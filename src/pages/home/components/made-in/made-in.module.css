@@ -6,19 +6,19 @@
   align-items: flex-end;
   justify-content: center;
 
-  padding: 4rem;
+  padding: var(--landing-offset-padding);
 }
 
 .text {
-  padding-block-start: 3rem;
+  padding-block-start: var(--white-space-7);
   display: inline-block;
 
   font-family: var(--font-text);
-  font-size: 18px;
-  font-weight: 700;
+  font-size: var(--font-size-5);
+  font-weight: var(--font-weight-2);
   color: var(--color-violet-7);
   opacity: 0.7;
-  transition: opacity 150ms ease-in-out;
+  transition: opacity var(--animation-duration-3) ease-in-out;
 }
 
 .text:hover {

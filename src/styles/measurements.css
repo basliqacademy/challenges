@@ -1,0 +1,30 @@
+:root {
+  --border-radius-largest: 2.4rem;
+  --border-radius-larger: 1.6rem;
+  --border-radius-large: 1.2rem;
+  --border-radius-medium: 0.8rem;
+  --border-radius-small: 0.4rem;
+
+  --white-space-1: 0.2rem;
+  --white-space-2: 0.4rem;
+  --white-space-3: 0.8rem;
+  --white-space-4: 1.2rem;
+  --white-space-5: 1.6rem;
+  --white-space-6: 2.4rem;
+  --white-space-7: 3.2rem;
+  --white-space-8: 4.8rem;
+  --white-space-9: 6.4rem;
+  --white-space-10: 8rem;
+  --white-space-11: 9.6rem;
+  --white-space-12: 12.8rem;
+  --white-space-13: 16rem;
+  --white-space-14: 19.2rem;
+  --white-space-15: 25.6rem;
+
+  --animation-duration-1: 50ms;
+  --animation-duration-2: 100ms;
+  --animation-duration-3: 150ms;
+  --animation-duration-4: 200ms;
+
+  --landing-offset-padding: var(--white-space-8);
+}

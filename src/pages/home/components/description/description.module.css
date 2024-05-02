@@ -1,0 +1,14 @@
+.container {
+  grid-column: 1 / 2;
+  grid-row: 3 / 4;
+
+  padding: var(--landing-offset-padding);
+  display: flex;
+  align-items: flex-end;
+}
+
+.description {
+  font-size: var(--font-size-6);
+  color: var(--color-violet-1);
+  opacity: 0.4;
+}

@@ -17,7 +17,7 @@
   --gradient-main: linear-gradient(
     var(--gradient-dir),
     var(--color-violet-9),
-    var(--color-violet-4)
+    var(--color-violet-5)
   );
 
   --gradient-landing-bg: linear-gradient(

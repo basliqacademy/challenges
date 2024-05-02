@@ -2,7 +2,7 @@
   grid-column: 1 / 2;
   grid-row: 4 / 5;
 
-  padding: 4rem;
+  padding: var(--landing-offset-padding);
 }
 
 .basliqAcademy {
