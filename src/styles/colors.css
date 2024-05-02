@@ -1,0 +1,10 @@
+.app,
+.app[data-theme="light"] {
+  --color-text: #000;
+  --color-bg: #fff;
+}
+
+.app[data-theme="dark"] {
+  --color-text: #fff;
+  --color-bg: #000;
+}
