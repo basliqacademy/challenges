@@ -15,5 +15,4 @@ html {
   min-block-size: 100dvh;
   color: var(--color-text);
   background-color: var(--color-bg);
-  font-size: 56px;
 }

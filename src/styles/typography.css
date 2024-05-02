@@ -1,0 +1,10 @@
+.app,
+.app[lang="en-US"] {
+  --font-text: "Vazirmatn", sans-serif;
+  --font-display: "Taviraj", serif;
+}
+
+.app[lang="fa-IR"] {
+  --font-text: "Vazirmatn", sans-serif;
+  --font-display: "Jomhuria", serif;
+}

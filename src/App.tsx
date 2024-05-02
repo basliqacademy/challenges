@@ -1,18 +1,16 @@
 import React from "react";
 import { ThemeContext } from "./providers/Theme";
-import { ButtonChangeTheme } from "./components/button-change-theme/ButtonChangeTheme";
-import { useDictionary } from "./hooks/useDictionary";
-import { ButtonChangeLanguage } from "./components/button-change-language/ButtonChangeLanguage";
+import { RouterProvider } from "react-router-dom";
+import { router } from "./routes/main";
+import { LanguageContext } from "./providers/Language";
 
 export function App() {
   const { theme } = React.useContext(ThemeContext);
-  const d = useDictionary();
+  const { lang, dir } = React.useContext(LanguageContext);
 
   return (
-    <div className="app" data-theme={theme} lang="fa-IR" dir="rtl">
-      <p>{d.root.test}</p>
-      <ButtonChangeTheme />
-      <ButtonChangeLanguage />
+    <div className="app" data-theme={theme} lang={lang} dir={dir}>
+      <RouterProvider router={router} />
     </div>
   );
 }
