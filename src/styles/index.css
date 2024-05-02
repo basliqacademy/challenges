@@ -1,6 +1,7 @@
 @import url("/src/styles/colors.css");
 @import url("/src/styles/typography.css");
 @import url("/src/styles/measurements.css");
+@import url("/src/styles/animations.css");
 
 @import url("/src/styles/button.css");
 @import url("/src/styles/selection.css");
