@@ -14,6 +14,7 @@
   aspect-ratio: 1;
   animation: sparkle 3s;
   animation-iteration-count: infinite;
+  pointer-events: none;
 }
 
 .sparkle-1 {

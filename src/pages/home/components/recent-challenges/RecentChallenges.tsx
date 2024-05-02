@@ -1,9 +1,11 @@
 import { useDictionary } from "../../../../hooks/useDictionary"
+import { useLanguage } from "../../../../hooks/useLanguage"
 import c from "./recent-challenges.module.css"
 import { Link } from "react-router-dom"
 
 export function RecentChallenges() {
   const d = useDictionary()
+  const lang = useLanguage()
 
   return (
     <div className={c.container}>
@@ -15,7 +17,9 @@ export function RecentChallenges() {
         </header>
         <main className={c.main}>
           <div className="sparkle">
-            <p className={c.heading}>{d.home.recentChallengesTitle}</p>
+            <Link className={c.heading} to={`/${lang}/challenges/01-card`}>
+              {d.home.recentChallengesTitle}
+            </Link>
             <div className="sparkle-1"></div>
             <div className="sparkle-2"></div>
             <div className="sparkle-3"></div>
@@ -30,7 +34,10 @@ export function RecentChallenges() {
           </p>
         </main>
         <footer className={c.footer}>
-          <Link to="/challenges/01-card" className="button primary all-width">
+          <Link
+            to={`/${lang}/challenges/01-card`}
+            className="button primary all-width"
+          >
             <p>{d.home.goToTheChallenge}</p>
           </Link>
         </footer>

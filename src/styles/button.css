@@ -31,6 +31,10 @@
     stroke: currentColor;
     fill: none;
   }
+
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .button.icon-only {

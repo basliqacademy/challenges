@@ -22,9 +22,9 @@
 }
 
 .image {
-  inline-size: 5rem;
+  inline-size: 3rem;
   aspect-ratio: 1;
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-medium);
   background-image: var(--gradient-main);
   overflow: hidden;
 
