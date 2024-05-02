@@ -1,0 +1,16 @@
+.small {
+  inline-size: var(--white-space-5);
+}
+
+.medium {
+  inline-size: var(--white-space-6);
+}
+
+.large {
+  inline-size: var(--white-space-7);
+}
+
+.svg {
+  fill: none;
+  stroke: currentColor;
+}

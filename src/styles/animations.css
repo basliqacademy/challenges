@@ -8,7 +8,7 @@
 .sparkle-4,
 .sparkle-5 {
   position: absolute;
-  background-image: url("/src//assets/sparkles.png");
+  background-image: url("/src//assets/sparkles.avif");
   background-size: contain;
   background-repeat: no-repeat;
   aspect-ratio: 1;

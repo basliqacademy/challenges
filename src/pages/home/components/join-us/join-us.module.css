@@ -26,6 +26,11 @@
   aspect-ratio: 1;
   border-radius: var(--border-radius-large);
   background-image: var(--gradient-main);
+  overflow: hidden;
+
+  & img {
+    inline-size: 100%;
+  }
 }
 
 .text {
