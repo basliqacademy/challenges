@@ -1,0 +1,12 @@
+.container {
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+  padding: var(--landing-offset-padding);
+  margin-block-start: var(--white-space-5);
+}
+
+.text {
+  font-size: var(--font-size-4);
+  color: var(--color-violet-1);
+  opacity: 0.3;
+}

@@ -27,4 +27,7 @@
   --animation-duration-4: 200ms;
 
   --landing-offset-padding: var(--white-space-8);
+
+  --button-padding: var(--white-space-3) var(--white-space-4);
+  --button-petite-padding: var(--white-space-2) var(--white-space-3);
 }

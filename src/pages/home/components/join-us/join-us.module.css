@@ -1,0 +1,34 @@
+.container {
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+
+  padding: var(--landing-offset-padding);
+}
+
+.card {
+  inline-size: 100%;
+  padding: var(--white-space-4);
+
+  border: 2px solid color-mix(in srgb, var(--color-violet-4) 15%, transparent);
+  border-radius: var(--border-radius-larger);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background: color-mix(in srgb, var(--color-violet-8) 10%, transparent);
+
+  display: flex;
+  align-items: center;
+  gap: var(--white-space-4);
+}
+
+.image {
+  inline-size: 5rem;
+  aspect-ratio: 1;
+  border-radius: var(--border-radius-large);
+  background-image: var(--gradient-main);
+}
+
+.text {
+  font-size: var(--font-size-4);
+  color: var(--color-violet-2);
+}

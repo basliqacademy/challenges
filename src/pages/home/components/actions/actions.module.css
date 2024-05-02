@@ -1,0 +1,12 @@
+.container {
+  grid-column: 3 / 4;
+  grid-row: 1 / 2;
+
+  padding: var(--landing-offset-padding);
+}
+
+.actions {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: var(--white-space-3);
+}

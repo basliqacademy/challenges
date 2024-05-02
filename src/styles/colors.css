@@ -32,6 +32,12 @@
 .app[data-theme="light"] {
   --color-text: #000;
   --color-bg: #fff;
+  --color-button-primary: var(--color-violet-7);
+  --color-button-primary-hover: var(--color-violet-9);
+  --color-button-primary-text: var(--color-violet-0);
+  --color-button-secondary: var(--color-violet-5);
+  --color-button-secondary-hover: var(--color-violet-6);
+  --color-button-secondary-text: var(var(--color-violet-8));
 }
 
 .app[data-theme="dark"] {

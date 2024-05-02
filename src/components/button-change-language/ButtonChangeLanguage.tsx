@@ -9,5 +9,9 @@ export function ButtonChangeLanguage() {
     setLang(getLanguage(lang));
   }
 
-  return <button onClick={handleClick}>change language</button>;
+  return (
+    <button className="button secondary icon-only" onClick={handleClick}>
+      <p>🌐</p>
+    </button>
+  );
 }

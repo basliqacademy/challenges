@@ -1,0 +1,6 @@
+::selection {
+  background-color: var(--color-violet-9);
+  color: var(--color-violet-1);
+  -webkit-text-fill-color: var(--color-violet-1);
+  text-fill-color: var(--color-violet-1);
+}
