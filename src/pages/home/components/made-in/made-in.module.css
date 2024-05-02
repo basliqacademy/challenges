@@ -1,0 +1,27 @@
+.container {
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+
+  padding: 4rem;
+}
+
+.text {
+  padding-block-start: 3rem;
+  display: inline-block;
+
+  font-family: var(--font-text);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--color-violet-7);
+  opacity: 0.7;
+  transition: opacity 150ms ease-in-out;
+}
+
+.text:hover {
+  opacity: 1;
+  cursor: url("/src/assets/call-me-hand.avif"), auto;
+}

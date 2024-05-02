@@ -1,3 +1,4 @@
 export const DictionaryHome = {
-  basliqAcademy: "آکادمی باسلیخ",
-};
+  basliqAcademy: "باسلیخ آکادمــــی",
+  madeIn: "ساخت تبریز",
+}

@@ -1,3 +1,33 @@
+.app {
+  --color-violet-9: hsl(255, 53%, 50%);
+  --color-violet-8: hsl(255, 67%, 55%);
+  --color-violet-7: hsl(255, 78%, 60%);
+  --color-violet-6: hsl(255, 86%, 63%);
+  --color-violet-5: hsl(255, 91%, 67%);
+  --color-violet-4: hsl(255, 93%, 72%);
+  --color-violet-3: hsl(255, 94%, 79%);
+  --color-violet-2: hsl(256, 100%, 87%);
+  --color-violet-1: hsl(257, 100%, 93%);
+  --color-violet-0: hsl(252, 100%, 97%);
+
+  --color-gradient-landing-2: hsl(240, 27%, 19%);
+  --color-gradient-landing-1: hsl(245, 39%, 28%);
+  --color-gradient-landing-0: hsl(246, 55%, 10%);
+
+  --gradient-main: linear-gradient(
+    var(--gradient-dir),
+    var(--color-violet-9),
+    var(--color-violet-4)
+  );
+
+  --gradient-landing-bg: linear-gradient(
+    var(--gradient-dir),
+    var(--color-gradient-landing-0),
+    var(--color-gradient-landing-1),
+    var(--color-gradient-landing-2)
+  );
+}
+
 .app,
 .app[data-theme="light"] {
   --color-text: #000;
@@ -7,4 +37,12 @@
 .app[data-theme="dark"] {
   --color-text: #fff;
   --color-bg: #000;
+}
+
+.app[lang="fa"] {
+  --gradient-dir: to top left;
+}
+
+.app[lang="en"] {
+  --gradient-dir: to top right;
 }

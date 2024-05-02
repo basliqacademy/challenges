@@ -1,3 +1,10 @@
-.layout {
+.container {
+  block-size: 100dvh;
+
   display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 8rem 1fr 1fr auto;
+
+  background-image: var(--gradient-landing-bg);
+  overflow-y: clip;
 }

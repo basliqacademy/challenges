@@ -9,10 +9,12 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  overflow-y: clip;
 }
 
 .app {
   min-block-size: 100dvh;
   color: var(--color-text);
   background-color: var(--color-bg);
+  font-family: var(--font-text);
 }

@@ -1,4 +1,29 @@
+.container {
+  grid-column: 1 / 2;
+  grid-row: 4 / 5;
+
+  padding: 4rem;
+}
+
 .basliqAcademy {
+  background-image: var(--gradient-main);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+
   font-family: var(--font-display);
-  font-size: 50px;
+  overflow-wrap: break-word;
+  max-inline-size: min-content;
+}
+
+.basliqAcademy.fa {
+  font-size: 180px;
+  line-height: 0.7;
+}
+
+.basliqAcademy.en {
+  font-size: 120px;
+  letter-spacing: -5px;
+  line-height: 1.05;
+  overflow-wrap: break-word;
 }
